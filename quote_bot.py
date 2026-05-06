@@ -1,6 +1,7 @@
 import os
 import requests
-
+TOKEN = "8745742661:AAH8aKNHgfiGUQ2TJHwqzPCcIGRkRVK7u4M"
+CHAT_ID = "-1003911486798"
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
