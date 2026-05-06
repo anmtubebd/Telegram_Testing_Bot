@@ -22,7 +22,6 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run Script
-        run: python quote_bot.py
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          echo "Running bot..."
+          python quote_bot.py
